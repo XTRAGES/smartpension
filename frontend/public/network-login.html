@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Pension - Network Login Instructions</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .card {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .step {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .step:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #3498db;
+        }
+        code {
+            background-color: #e9ecef;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .alert {
+            background-color: #f8d7da;
+            border-left: 4px solid #dc3545;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Smart Pension Network Login Instructions</h1>
+    
+    <div class="card">
+        <h2>Welcome to Smart Pension!</h2>
+        <p>This application is running on your local network. Follow the instructions below to access and log in to the system.</p>
+    </div>
+    
+    <div class="card">
+        <h2>Accessing the Application</h2>
+        <div class="step">Open your web browser (Chrome, Firefox, Edge, etc.)</div>
+        <div class="step">Enter the following URL in your address bar: <code>http://172.20.10.2:3000</code></div>
+        <div class="step">The Smart Pension login page should appear</div>
+    </div>
+    
+    <div class="card">
+        <h2>For Admin Users</h2>
+        <div class="step">Use the admin account provided by your system administrator</div>
+        <div class="step">Enter your wallet address (if applicable)</div>
+        <div class="step">For testing, you can use a test wallet address or create a new one</div>
+    </div>
+    
+    <div class="card">
+        <h2>For Pensioners</h2>
+        <div class="step">You'll need your assigned wallet address</div>
+        <div class="step">Contact the admin if you don't have your wallet address</div>
+        <div class="step">Enter your wallet address in the login field</div>
+    </div>
+    
+    <div class="alert">
+        <strong>Note:</strong> This is a local network application. It is not accessible from the internet, only from devices connected to the same network.
+    </div>
+</body>
+</html> 

@@ -1,0 +1,28 @@
+{
+  "name": "smart-pension",
+  "version": "1.0.0",
+  "description": "Smart Pension - AI and Blockchain based pension verification system",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy:mumbai": "npx hardhat run scripts/deploy.js --network mumbai",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network localhost",
+    "node": "npx hardhat node",
+    "test": "npx hardhat test"
+  },
+  "keywords": [
+    "blockchain",
+    "pension",
+    "verification",
+    "smart-contract",
+    "ai"
+  ],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "hardhat": "^0.0.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}

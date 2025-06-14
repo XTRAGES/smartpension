@@ -1,0 +1,1 @@
+A blockchain-based pension verification system that uses facial recognition and smart contracts to ensure only eligible pensioners receive payments. Built with Ethereum (Hardhat), React, and Flask.
