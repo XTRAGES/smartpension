@@ -76,9 +76,6 @@ Or follow the manual setup in NETWORK-SETUP.md
 2. Connect your MetaMask wallet
 3. Login with the appropriate role (Admin, Doctor, or Pensioner)
 
-## :handshake: Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
 ## :balance_scale: License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
