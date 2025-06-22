@@ -77,7 +77,7 @@ Or follow the manual setup in NETWORK-SETUP.md
 3. Login with the appropriate role (Admin, Doctor, or Pensioner)
 
 ## :balance_scale: License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the proprietary License - see the [LICENSE](LICENSE) file for details.
 
 ## :email: Contact
    aldinzendeli33@gmail.com
