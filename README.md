@@ -1,34 +1,45 @@
-# Smart Pension - Blockchain Verification System
+# :lock: Smart Pension - Blockchain Verification System
 
-A blockchain-based pension verification system that uses facial recognition and smart contracts to ensure only eligible pensioners receive payments.
+## :pencil: Description
+A blockchain-based pension verification system that uses facial recognition and smart contracts to ensure only eligible pensioners receive payments. Built with Ethereum (Hardhat), React, and Flask.
 
-## Features
+## :bookmark_tabs: Table of Contents
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Running the Application](#running-the-application)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-- Blockchain-secured pension verification
-- Facial recognition to verify pensioner identity
-- Admin dashboard for managing pensioners
-- Doctor interface for death registration
-- Pensioner dashboard for verification and status
+## :sparkles: Features
+- **Blockchain-secured pension verification**: Ensures secure and transparent pension management using blockchain technology.
+- **Facial recognition**: Verifies pensioner identity using facial recognition for enhanced security.
+- **Admin dashboard**: Provides an interface for administrators to manage pensioners and system settings.
+- **Doctor interface**: Enables doctors to register deaths, updating the system and preventing fraudulent payments.
+- **Pensioner dashboard**: Allows pensioners to verify their status and manage their information.
+- **Smart Contracts**: Automates pension distribution and verification processes using Solidity smart contracts.
+- **MetaMask Integration**: Seamlessly connects users to the blockchain network using MetaMask.
 
-## Technology Stack
-
+## :computer: Technology Stack
 - **Frontend**: React, Material-UI
 - **Backend**: Flask, Python
 - **Blockchain**: Ethereum (Hardhat development environment)
 - **Smart Contracts**: Solidity
 - **Authentication**: MetaMask wallet integration
 
-## Getting Started
+## :rocket: Getting Started
 
-### Prerequisites
-
+### :gear: Prerequisites
 - Node.js & npm
 - Python 3.7+
 - MetaMask browser extension
 - Git
 
-### Installation
-
+### :wrench: Installation
 1. Clone this repository:
    ```
    git clone https://github.com/XTRAGES/smartpension.git
@@ -49,7 +60,7 @@ A blockchain-based pension verification system that uses facial recognition and 
 
 4. Create and configure .env files as described in NETWORK-SETUP.md
 
-### Running the Application
+## :arrow_forward: Running the Application
 
 Use the provided batch files:
 ```
@@ -59,15 +70,17 @@ start-local-network.bat  # For network access
 
 Or follow the manual setup in NETWORK-SETUP.md
 
-## Usage
+## :question: Usage
 
 1. Access the application at `http://localhost:3000`
 2. Connect your MetaMask wallet
 3. Login with the appropriate role (Admin, Doctor, or Pensioner)
 
+## :handshake: Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
+## :balance_scale: License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-- This project was developed as a prototype for a secure pension verification system
-- Special thanks to the blockchain community for their resources and documentation 
+## :email: Contact
+   aldinzendeli33@gmail.com
